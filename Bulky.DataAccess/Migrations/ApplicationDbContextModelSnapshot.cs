@@ -528,7 +528,7 @@ namespace BulkyBook.DataAccess.Migrations
 
                 b.ToTable("AspNetUsers", (string)null);
 
-                b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
+               // b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
 
                 b.UseTphMappingStrategy();
             });
